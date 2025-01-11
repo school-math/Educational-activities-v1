@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+    
+        .iframe-container {
+            position: relative;
+            width: 60%;
+            margin: auto;
+            padding-top: 45%; /* This creates a 4:3 aspect ratio (75% of width) */
+            /* For 16:9 ratio, use 33.75% (56.25% of 60%) */
+        }
+    
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        </style>
+        <script src="scripts.js"></script>
+        <link rel="stylesheet" href="styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+      </head>
+      <body class="has-sticky-header">
+        <h1>Geometry Dash</h1>
+        <div class="more">
+          <a href="more.html" class="more">More</a>
+          <a href="all.html" class="more">All</a>
+          <a href="index.html" class="more">Home</a>
+        </div>
+    <div class="iframe-container">
+    <iframe src="https://www.onlinegames.io/games/2023/q2/geometry-dash-freezenova/index.html"></iframe>
+    </div>
+    
+   
+</body>
+</html>

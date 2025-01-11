@@ -1,0 +1,121 @@
+h1 {
+  text-align: center;
+  background-color: rgb(19, 23, 30);
+  margin-top: -61px;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding: 30px;
+  color: aliceblue;
+  margin-bottom: 15px;
+  /* Add this to ensure consistent box sizing */
+  box-sizing: border-box;
+}
+
+h1,
+.more {
+  margin-left: -8px;
+  margin-right: -8px;
+  box-sizing: border-box;
+  width: calc(
+    100% + 16px
+  ); /* This ensures both elements extend the same width */
+}
+
+/* Add these new styles to your existing CSS */
+.more {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  color: aliceblue;
+  padding: 14px;
+  padding-left: 20px;
+  background-color: rgb(19, 23, 30);
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -15px;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-family: "Courier New", Courier, monospace;
+  width: calc(100% + 16px);
+  z-index: 1000; /* Ensures the header stays on top of other content */
+}
+
+/* New class for when the header becomes sticky */
+.sticky {
+  position: sticky;
+  top: 0;
+  width: calc(100% + 16px);
+}
+
+/* Add this to prevent content jump when header becomes fixed */
+body.has-sticky-header {
+  padding-top: 53px; /* Adjust this value to match your header height */
+}
+
+.more:hover {
+  color: hsl(216, 73%, 41%);
+}
+
+/* Add this new style to make text elements inline */
+.more span,
+.more a {
+  display: inline;
+  margin-right: 0.5px; /* Adds some space between the words */
+}
+
+h2 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+  margin-bottom: 35px;
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+
+}
+
+.motox3mimg,
+.geometrydashimg,
+.timeshooterimg,
+.flappybirdimg,
+.snowrider3dimg {
+  width: 110px;
+  margin: 10px;
+  margin-top: 18px;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.minecraftimg {
+  width: 170px;
+  margin-right: -23px;
+  margin-left: -1rem;
+  margin-top: 17px;
+}
+.slopeimg {
+  width: 120px;
+  margin: 0.5rem;
+  margin-top: 12px;
+}
+p {
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.chatbot-start {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+body {
+ background-color: rgb(2, 4, 9);
+
+}
